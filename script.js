@@ -15,3 +15,19 @@ transformArray(myNumbers);
 console.log(myNumbers);
 console.log(incrementedNumbers);
 //FIRST TRY BAAABYYY
+
+//Exercise 1: Basic Callback Function
+//Write a function that simulates the process of ordering and preparing food, using a callback to greet the customer once the food is ready.
+
+function greetCustomer() {
+  console.log("Your food is ready!");
+}
+function prepareFood(callback) {
+  console.log("Preparing food...");
+  callback();
+}
+prepareFood(greetCustomer);
+//DID IT
+
+//Exercise 2:Delayed Callback with setTimeout
+//Simulate a delayed server response using a callback.
