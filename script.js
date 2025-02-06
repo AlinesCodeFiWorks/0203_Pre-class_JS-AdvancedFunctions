@@ -89,3 +89,14 @@ function executionMessage() {
 actionExecuted(executionMessage);
 //Exercise 2: Using steInterval to Repeat and Action
 //Use setInterval to repeat an action at regular intervals.
+function repeatingAction(callback) {
+  setInterval(callback, 4000);
+}
+function repeatingMessage() {
+  console.log("Repeating action!");
+}
+repeatingAction(repeatingMessage);
+//I want to run this but I'm scared my computer can;t handle it lol
+clearInterval(repeatingAction);
+//BAHAHAHAHAH
+//the code itself worked but not the clear interval - good news is my computer is doing just fine lol
