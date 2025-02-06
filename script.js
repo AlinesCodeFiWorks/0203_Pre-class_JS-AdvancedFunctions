@@ -41,3 +41,23 @@ function displayData() {
 
 requestData(displayData);
 //OMG IT WORKED
+//NEXT
+
+//Exercise 1: Writing an Arrow Function
+//Write an arrow function that calculates the square of a number.
+const square = (x) => x * x;
+console.log(square(5));
+//For the record, I did omit the parantheses but Prettier adds it back lol
+
+//Exercise 2: Converting a Regular Function to an Arrow Function
+//Convert a regular function to an arrow function.
+// Regular function
+function multiply(a, b) {
+  return a * b;
+}
+
+// Now, convert the 'multiply' function to an arrow function below:
+const multiplyArrow = (a, b) => a * b;
+
+console.log(multiply(3, 4));
+console.log(multiplyArrow(3, 4));
