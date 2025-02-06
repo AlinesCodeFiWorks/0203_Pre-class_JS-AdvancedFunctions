@@ -73,7 +73,11 @@ console.log(squareNumbers);
 //Use both filter and map functions to first filter the even numbers, then double them.
 
 const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
+const numbers2EvenDoubled = numbers2
+  .filter((num) => num % 2 === 0)
+  .map((num) => num * 2);
+console.log(numbers2EvenDoubled);
+//unbelievable...it works! Heck yeah!
 //Exercise 1: Using setTimeout to delay an action
 //Use setTimeout to delay the execution of a function.
 //Exercise 2: Using steInterval to Repeat and Action
