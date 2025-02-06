@@ -1,3 +1,5 @@
+//Quick exercise
+//Write a function named transformArray that:Adds the value 5 to the start of an array.Removes the last element of the array.Returns a new array where each remaining element is incremented by 1.
 //Declaring variables
 let myNumbers = [1, 2, 3, 4];
 let incrementedNumbers = [];
@@ -61,3 +63,18 @@ const multiplyArrow = (a, b) => a * b;
 
 console.log(multiply(3, 4));
 console.log(multiplyArrow(3, 4));
+// Exercise 1: Using map to Transform an Array
+//Use the map function to transform an array of numbers.
+const numbers = [1, 2, 3, 4, 5];
+const squareNumbers = numbers.map((num) => num * num);
+console.log(squareNumbers);
+
+//Exercise 2: Filtering and Mapping Arrays
+//Use both filter and map functions to first filter the even numbers, then double them.
+
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//Exercise 1: Using setTimeout to delay an action
+//Use setTimeout to delay the execution of a function.
+//Exercise 2: Using steInterval to Repeat and Action
+//Use setInterval to repeat an action at regular intervals.
