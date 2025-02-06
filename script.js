@@ -31,3 +31,13 @@ prepareFood(greetCustomer);
 
 //Exercise 2:Delayed Callback with setTimeout
 //Simulate a delayed server response using a callback.
+function requestData(callback) {
+  console.log("Requesting data...");
+  setTimeout(callback, 2000);
+}
+function displayData() {
+  console.log("Displaying data...");
+}
+
+requestData(displayData);
+//OMG IT WORKED
