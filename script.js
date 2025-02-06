@@ -80,5 +80,12 @@ console.log(numbers2EvenDoubled);
 //unbelievable...it works! Heck yeah!
 //Exercise 1: Using setTimeout to delay an action
 //Use setTimeout to delay the execution of a function.
+function actionExecuted(callback) {
+  setTimeout(callback, 3000);
+}
+function executionMessage() {
+  console.log("Action executed!");
+}
+actionExecuted(executionMessage);
 //Exercise 2: Using steInterval to Repeat and Action
 //Use setInterval to repeat an action at regular intervals.
